@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommIndicatorView">
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="unSelectedColor" format="color|reference" />
+        <attr name="Shape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+
+        <attr name="IndicatorHeight" format="dimension|reference" />
+        <attr name="IndicatorWidth" format="dimension|reference" />
+        <attr name="IndicatorSpace" format="dimension|reference" />
+        <attr name="IndicatorMargin" format="dimension|reference" />
+    </declare-styleable>
+</resources>
